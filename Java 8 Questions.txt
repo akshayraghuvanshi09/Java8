@@ -1,0 +1,56 @@
+
+General Questions Java 8  : 
+1.Write a Java 8 program to find the intersection of two arrays.
+2.Implement a method in Java 8 to find the nth Fibonacci number using streams.
+3.Create a program to find the kth largest element in an array using Java 8 streams.
+*4.Write a Java 8 program to implement a binary search algorithm.
+5.Develop a program to reverse a string using Java 8 streams.
+6.Implement a method in Java 8 to generate a list of prime numbers up to a given limit.
+7.Create a program to check if a given number is a perfect square using Java 8 streams.
+8.Write a Java 8 program to rotate an array by a given number of positions.
+9.Implement a method to find the longest substring without repeating characters in a given string using Java 8 streams.
+10.Develop a program to perform matrix multiplication using Java 8 streams.
+
+
+Questions on Predicate : 
+1.Write a Java 8 program to check if a given string is a palindrome using predicates.
+2.Implement a Java 8 program to find all prime numbers in a given range using predicates.
+3.Create a Java 8 program to filter a list of strings based on a given predicate condition (e.g., string length greater than 5).
+4.Write a Java 8 program to check if a given number is even or odd using predicates.
+5.Implement a Java 8 program to filter a list of integers to find all numbers divisible by 3 using predicates.
+6.Create a Java 8 program to check if a given string contains only digits using predicates.
+7.Write a Java 8 program to filter a list of strings to find all strings starting with a vowel using predicates.
+8.Implement a Java 8 program to find the average of all even numbers in a list using predicates.
+9.Create a Java 8 program to check if a given list of integers is sorted in non-decreasing order using predicates.
+10.Write a Java 8 program to filter a list of strings to find all strings containing a specific substring using predicates.
+
+Level:2
+1.Implement a Java 8 program to find the longest substring in a given string that contains only vowels, using predicates.
+2.Write a Java 8 program to check if a given list of strings forms a valid palindrome when concatenated together, using predicates.
+3.Create a Java 8 program to find the second smallest element in a given list of integers using predicates.
+4.Implement a Java 8 program to find all anagrams of a given word in a list of strings, using predicates.
+5.Write a Java 8 program to find the longest increasing subsequence in a given list of integers, using predicates.
+
+
+Questions on Consumer : 
+1. Filter and Process: Given a list of strings, write a program to filter out strings starting with the letter 'A' and then print the remaining strings in uppercase.
+
+2.Custom Consumer: Implement a Consumer that takes a list of integers and prints the square of each integer.
+
+3.Chain Consumers: Create a chain of consumers where each consumer adds a specific string prefix to a list of strings. For example, the first consumer adds "Prefix1" to each string, the second consumer adds "Prefix2", and so on.
+
+4.Conditional Consumer: Write a program to accept a list of integers and print "Even" if the number is even and "Odd" if it's odd, using a single consumer.
+
+5.Consumer Composition: Given a list of strings, write a program that applies two consumers in sequence: the first one converts each string to uppercase, and the second one appends "Processed" to each string.
+
+6.Parallel Processing: Implement a program that uses parallel streams to apply a consumer to each element of a large list of integers. Ensure thread safety in your implementation.
+
+7.Consumer with Exception Handling: Write a program where a consumer is applied to each element of a list of integers. If any element is negative, throw a custom exception and handle it gracefully.
+
+8.Consumer with Resource Management: Implement a program that reads lines from a file using a BufferedReader and applies a consumer to each line. Ensure proper resource management and exception handling.
+
+9.Nested Consumers: Create a program that applies a consumer to each element of a list of integers. Within the consumer, apply another consumer to print the square of each element.
+
+10.Consumer with State: Write a program where a consumer is applied to a list of strings. The consumer should keep track of the longest string encountered so far and print it after processing all elements.
+
+Questions on Functions : 
